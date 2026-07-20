@@ -1,4 +1,4 @@
-const isLoggedIn = false;
+let isLoggedIn = false;
 
 
 // if(!isLoggedIn){
@@ -25,3 +25,11 @@ if(number){
 // else {
 //     console.log('please login')
 // }
+
+isLoggedIn = true;
+if (isLoggedIn){
+    console.log("Please Log in");
+}
+if (isLoggedIn === true){
+    console.log("Please Log in");
+}
